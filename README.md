@@ -1,5 +1,4 @@
 # Order-Summary
-# QRCode-Component
 
 Esta é minha solução para o [Order summary card challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/order-summary-component-QlPmajDUj).
 
