@@ -1,16 +1,15 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: red Hat Display ;
+    font-family: red Hat Display;
 }
 
-.conteiner{
+.conteiner {
     background-image: url(images/pattern-background-desktop.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    min-width: 1440px;
-    height: 100vh;
+    min-height: 100vh;
     background-color: hsl(225, 100%, 94%);
     display: flex;
     align-items: center;
@@ -18,40 +17,42 @@
     text-align: center;
 }
 
-.card{
+.card {
     width: 380px;
     height: 600px;
     background-color: white;
     border-radius: 12px;
-    box-shadow: 0px 10px 30px  rgba(93, 93, 95, 0.4);
+    box-shadow: 0px 10px 30px rgba(93, 93, 95, 0.4);
 }
-.card img{
+
+.card img {
     width: 380px;
     border-radius: 12px 12px 0 0;
 }
 
-.card h1{
+.card h1 {
     font-weight: 900;
     font-size: 28px;
     color: hsl(223, 47%, 23%);
     margin: 20px auto;
 }
 
-.titlePlan{
+.titlePlan {
     font-weight: 900;
     text-align: left;
     margin-left: 10px;
 }
-.paragraph{
+
+.paragraph {
     font-size: 16px;
     font-weight: 500;
-    color:hsl(224, 23%, 55%);
+    color: hsl(224, 23%, 55%);
     padding: 0 60px;
     line-height: 26px;
     margin-bottom: 25px;
 }
 
-.cardPrice{
+.cardPrice {
     width: 80%;
     height: 15%;
     display: grid;
@@ -63,20 +64,21 @@
     padding: 8px;
 }
 
-.price{
+.price {
     font-weight: 500;
-    color:hsl(224, 23%, 55%);
+    color: hsl(224, 23%, 55%);
 }
-.cardPrice img{
-    width:65% ;
+
+.cardPrice img {
+    width: 65%;
     margin: auto;
 }
 
-.card a:hover{
+.card a:hover {
     color: hsl(245, 76%, 60%);
 }
 
-.btnConfirm{
+.btnConfirm {
     width: 90%;
     height: 50px;
     border-radius: 8px;
@@ -84,40 +86,36 @@
     color: white;
     font-weight: 700;
     font-size: 16px;
-    background-color:  hsl(245, 75%, 52%);
+    background-color: hsl(245, 75%, 52%);
     cursor: pointer;
 }
 
-.btnConfirm:hover{
-    background-color:hsl(245, 76%, 60%);
+.btnConfirm:hover {
+    background-color: hsl(245, 76%, 60%);
 }
 
-.btnCancel{
+.btnCancel {
     margin-top: 15px;
     width: 90%;
     height: 40px;
     border: 0;
-    background-color:white;
+    background-color: white;
     font-weight: 700;
     font-size: 16px;
-    color:hsl(224, 23%, 55%);
+    color: hsl(224, 23%, 55%);
     cursor: pointer;
 }
 
-.btnCancel:hover{
+.btnCancel:hover {
     color: black;
 }
 
-@media (max-width: 375px) {
-    .conteiner{
-        min-width: 375px;
+@media screen and (max-width: 414px) {
+    .card {
+        width: 330px;
+        height: 600px;
     }
-    .card{
-            width: 330px;
-            height: 600px;
-    }
-
-    .card img{
-        width:100%;
+    .card img {
+        width: 100%;
     }
 }
