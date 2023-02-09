@@ -7,6 +7,7 @@ Esta é minha solução para o [Order summary card challenge on Frontend Mentor]
 - [Visão geral](#visão-geral)
    - [Captura de tela](#captura-de-tela)
    * [Tecnologias](#tecnologias)
+   - [links](#links)
     
  
 ## Visão Geral
@@ -29,3 +30,6 @@ Este projeto foi desenvolvido utilizando as tecnologias referenciadas a baixo:
 - ``CSS ``
 - ``FLEXBOX``
 - ``CSS GRID``
+
+## Links
+[Link para o projeto](https://renannevesc94.github.io/Order-Summary/)
